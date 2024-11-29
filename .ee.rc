@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MAX_SESSIONS=2
+MAX_SESSIONS=3
 current_sessions=$(ps aux | grep -c "[b]ash")
 if [ "$current_sessions" -gt "$MAX_SESSIONS" ]; then
   echo "Chỉ có thể mở một tab. vui lòng thoát app vào lại.."
